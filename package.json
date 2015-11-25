@@ -25,5 +25,8 @@
     "archiver-zip": "^0.1.0",
     "bluebird": "^3.0.5",
     "decompress-zip": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
   }
 }
