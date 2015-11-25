@@ -1,0 +1,29 @@
+{
+  "name": "node-zip",
+  "version": "1.0.0",
+  "description": "zip and unzip for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymyang/node-zip.git"
+  },
+  "keywords": [
+    "zip",
+    "unzip"
+  ],
+  "author": "ymyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ymyang/node-zip/issues"
+  },
+  "homepage": "https://github.com/ymyang/node-zip#readme",
+  "dependencies": {
+    "archiver": "^0.17.0",
+    "archiver-zip": "^0.1.0",
+    "bluebird": "^3.0.5",
+    "decompress-zip": "^0.2.0"
+  }
+}
