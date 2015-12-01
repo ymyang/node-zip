@@ -1,25 +1,25 @@
 # node-zip
 zip and unzip folder for node
 
-# 安装
+# 瀹夎
 
 ```
 npm install node-zip-dir
 ```
 
-# 使用
+# 浣跨敤
 
 ```
 var zip = require('node-zip-dir');
 
-// 压缩
+// 鍘嬬缉
 zip.zip('E:/Temp', 'E:/Temp.zip').then(function() {
     console.log('success');
 }).catch(function(err) {
     console.error(err);    
 });
 
-// 解压
+// 瑙ｅ帇
 zip.unzip('E:/Temp.zip', 'E:/Temp1').then(function() {
     console.log('success');
 }).catch(function(err) {
