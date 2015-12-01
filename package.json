@@ -1,6 +1,6 @@
 {
-  "name": "node-zip",
-  "version": "1.0.0",
+  "name": "node-zip-dir",
+  "version": "1.0.1",
   "description": "zip and unzip for node",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,7 @@
   },
   "homepage": "https://github.com/ymyang/node-zip#readme",
   "dependencies": {
-    "archiver": "^0.17.0",
-    "archiver-zip": "^0.1.0",
+    "archiver": "^0.20.0",
     "bluebird": "^3.0.5",
     "decompress-zip": "^0.2.0"
   },
