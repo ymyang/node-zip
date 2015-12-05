@@ -9,7 +9,8 @@ npm install node-zip-dir
 
 # 使用
 
-```
+```javascript
+
 var zip = require('node-zip-dir');
 
 // 压缩
@@ -25,6 +26,7 @@ zip.unzip('E:/Temp.zip', 'E:/Temp1').then(function() {
 }).catch(function(err) {
     console.error(err);    
 });
+
 
 ```
 
